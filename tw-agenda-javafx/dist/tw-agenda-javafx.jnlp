@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="tw-agenda-javafx.jnlp">
+  <information>
+    <title>tw-agenda-javafx</title>
+    <vendor>netos</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="lib\tw-agenda-entidades.jar" size="2086" download="eager" />
+    <jar href="lib\tw-agenda-repositorio.jar" size="5441" download="eager" />
+    <jar href="tw-agenda-javafx.jar" size="9205" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="tw-agenda-javafx" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="br.com.treinaweb.main.Main"  name="tw-agenda-javafx" />
+  <update check="always"/>
+</jnlp>
